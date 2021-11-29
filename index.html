@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Bhargav Sagiraju</title>
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap4-pleasant.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/termynal.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114296488-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-114296488-1');
+  </script>
+
+</head>
+
+<body>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="images/basic_icon.png" width="50" height="50" alt="">
+      </a>
+      <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fas fa-bars text-dark "></span>
+      </button>
+
+      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarTogglerDemo03">
+        <ul class="navbar-nav  ml-auto">
+          <li class="nav-item">
+            <a href="#about" class="nav-link text-dark">
+              About</a>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#projects">
+              Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#contact">
+              Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron bg-light mb-0 radius-0 py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-10">
+          <h1 class="display-3 display-fix">Bhargav Sagiraju</h1>
+          <span class="lead text-primary">Harnessing data towards a smarter future.</span>
+          <div class="mt-3">
+            <a href="https://www.linkedin.com/in/bhargav-sagiraju" target="_blank" class="btn btn-wide btn-primary btn-lg my-2 mr-3">
+              <span class="fab fa-linkedin mr-2"></span>Linkedin</a>
+            <a href="https://github.com/bhargav1000/" target="_blank" class="btn btn-wide btn-outline-dark btn-lg my-2">
+              <span class="fab fa-github mr-2"></span>Github</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container py-5" id='about'>
+    <h3 class="text-dark">About Me</h3>
+    <div id="termynal" data-termynal data-termynal data-ty-typeDelay="40" data-ty-lineDelay="700" class="mt-4">
+      <span data-ty="input">pip install earth</span>
+      <span data-ty="progress"></span>  
+      <span data-ty>Successfully installed earth</span>
+      <span data-ty="input">from earth import People</span>
+      <span data-ty="input">bhargav = People(firstname="Bhargav", lastname="Sagiraju")</span>
+      <span data-ty="input">bhargav.location</span>
+      <span data-ty>"Bangalore, India"</span>
+      <span data-ty="input">bhargav.education</span>
+      <span data-ty>"B.E. Computer Science Engineering, Visvesvaraya Technological University"</span>
+      <span data-ty="input">bhargav.skills</span>
+      <span data-ty>["Python", "R", "Flask", "Keras", "Scikit-learn", "Caret", "Pandas", "dplyr",
+        "Matplotlib", "ggplot", "git"]</span>
+      <span data-ty="input">bhargav.interests</span>
+      <span data-ty>["data-science", "science-fiction", "guitar", "problem-solving"]</span>
+    </div>
+  </div>
+
+  <div class="container pb-5" id='projects'>
+    <h3 class="text-dark mb-4">Projects</h3>
+    <div class="row ">
+
+      <div class='col'>
+        <div class="card shadow shadow-md text-dark">
+          <div class="card-body">
+            <h5 class="card-title"><b>Magnum-Opus</b></h5>
+            <p class="card-text">A CNN based Image Classifier used to classify Aadhaar Card, PAN Card and any other document using VGG16.
+            </p>
+            <p>
+              <btn class="btn btn-outline-danger btn-sm">Keras</btn>
+              <btn class="btn btn-outline-danger btn-sm">Image Classification</btn>
+              <btn class="btn btn-outline-danger btn-sm">CNN</btn>
+            </p>
+
+            <p>
+              <a href="https://github.com/bhargav1000/Magnum-Opus" target="_blank" class="btn btn-primary">Source<span
+                  class='ml-2 fab fa-github'></span></a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class='col'>
+        <div class="card shadow shadow-md text-dark">
+          <div class="card-body">
+            <h5 class="card-title"><b>Heat-Seeker</b></h5>
+            <p class="card-text">A Named Entity Recognition algorithm with a companion REST API to detect entities of interest in a SMS.</p>
+
+            <btn class="btn btn-outline-danger btn-sm">Flask</btn>
+            <btn class="btn btn-outline-danger btn-sm">spaCy</btn>
+            <btn class="btn btn-outline-danger btn-sm">NLP</btn>
+            <btn class="btn btn-outline-danger btn-sm">Named Entity Recognition</btn>
+
+            </p>
+            <p>
+              <a href="https://github.com/bhargav1000/Heat-Seeker" target="_blank" class="btn btn-primary">Source<span
+                  class='ml-2 fab fa-github'></span></a>
+
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4 ">
+      <div class='col'>
+        <div class="card shadow shadow-md text-dark">
+          <div class="card-body">
+            <h5 class="card-title"><b>Emotion Perception using Reinforcement Learning</b></h5>
+            <p class="card-text">
+              Interactive UI offers choice between facial emotion detection through Raspberry Pi Camera and text emotion detection through an external Kernel using Python. <b>The project won the Best Engineering Project Award for 2019 from Visvesvaraya Technological University.</b>
+            </p>
+            <p>
+              <btn class="btn btn-outline-danger btn-sm">Keras</btn>
+              <btn class="btn btn-outline-danger btn-sm">LSTM</btn>
+              <btn class="btn btn-outline-danger btn-sm">NLP</btn>
+              <btn class="btn btn-outline-danger btn-sm">OpenCV</btn>
+              <btn class="btn btn-outline-danger btn-sm">Raspberry Pi</btn>
+
+            </p>
+            <p>
+              <a href="https://github.com/bhargav1000/emotion-perception-using-reinforcement-learning" target="_blank" class="btn btn-primary">Source<span
+                  class='ml-2 fab fa-github'></span></a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class='col'>
+        <div class="card shadow shadow-md text-dark">
+          <div class="card-body">
+            <h5 class="card-title"><b>SPIRE</b></h5>
+            <p class="card-text">
+              Digitalization of customer risk identification process with an XGBoost model to pick lifestyle indicators and assess customer risk based on installed apps on a customer's smartphone. The model provided a whole new way of assessing app data (package info).
+            </p>
+            <p>
+              <btn class="btn btn-outline-danger btn-sm">dplyr</btn>
+              <btn class="btn btn-outline-danger btn-sm">xgboost</btn>
+            </p>
+            <p>
+              <a href="https://github.com/bhargav1000/SPIRE" target="_blank" class="btn btn-primary">Source<span
+                  class='ml-2 fab fa-github'></span></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4 ">
+      <div class='col'>
+        <div class="card shadow shadow-md text-dark">
+          <div class="card-body">
+            <h5 class="card-title"><b>K-prototypes</b></h5>
+            <p class="card-text">
+              An experiment with K-prototypes algorithm with Kmodes library which clusters over a dataset with mixed feature types. The cluster-based customer segmentation helped create new sales strategies. 
+            </p>
+            <p>
+             <btn class="btn btn-outline-danger btn-sm">Pandas</btn>
+	         <btn class="btn btn-outline-danger btn-sm">NumPy</btn>
+	         <btn class="btn btn-outline-danger btn-sm">KModes</btn>
+            </p>
+            <p>
+              <a href="https://github.com/bhargav1000/kprototypes-clustering" target="_blank" class="btn btn-primary">Source<span
+                  class='ml-2 fab fa-github'></span></a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class='col'>
+        <div class="card shadow shadow-md text-dark">
+          <div class="card-body">
+            <h5 class="card-title"><b>Web Scraper</b></h5>
+            <p class="card-text">
+              BeautifulSoup based web & notification scrapers to scrape exam results from the University (VTU) results website. The scrapers saved a lot of faculty's time & money spent on extracting student results.
+            </p>
+            <p>
+              <btn class="btn btn-outline-danger btn-sm">BeautifulSoup</btn>
+              <btn class="btn btn-outline-danger btn-sm">urllib</btn>
+            </p>
+            <p>
+              <a href="https://github.com/bhargav1000/web-scrapers" target="_blank" class="btn btn-primary">Source<span
+                  class='ml-2 fab fa-github'></span></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4 ">
+      <div class='col'>
+        <div class="card shadow shadow-md text-dark">
+          <div class="card-body">
+            <h5 class="card-title"><b>Coursera Capstone</b></h5>
+            <p class="card-text">
+              A repo for the IBM Data Science Professional Certificate course on Coursera. I created a dashboard using Dash to visualize city data from London and Paris. I created a KMeans model to cluster similar neighbourhoods.
+            </p>
+            <p>
+             <btn class="btn btn-outline-danger btn-sm">Pandas</btn>
+	         <btn class="btn btn-outline-danger btn-sm">NumPy</btn>
+	         <btn class="btn btn-outline-danger btn-sm">Dash</btn>
+            </p>
+            <p>
+              <a href="https://github.com/bhargav1000/Coursera_Capstone" target="_blank" class="btn btn-primary">Source<span
+                  class='ml-2 fab fa-github'></span></a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class='col'>
+        <div class="card shadow shadow-md text-dark">
+          <div class="card-body">
+            <h5 class="card-title"><b>IBM Advanced Data Science Capstone</b></h5>
+            <p class="card-text">
+              A repo for the IBM Advanced Data Science Course. I modeled customer subscription preference with Apache Spark. The exercise was based on the telemarketing dataset obtained from the UCI Machine Learning repository.
+            </p>
+            <p>
+              <btn class="btn btn-outline-danger btn-sm">Apache Spark</btn>
+              <btn class="btn btn-outline-danger btn-sm">Pandas</btn>
+              <btn class="btn btn-outline-danger btn-sm">Numpy</btn>
+            </p>
+            <p>
+              <a href="https://github.com/bhargav1000/ibm-advanced-data-science-capstone" target="_blank" class="btn btn-primary">Source<span
+                  class='ml-2 fab fa-github'></span></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+    <div class="container py-5" id='contact'>
+      <h3 class="text-dark pb-3">Contact</h3>
+<h5><a class="text-primary" href="mailto:sagiraju.bhargav@gmail.com" target="_top">Email</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a
+class="text-primary" href="https://www.linkedin.com/in/bhargav-sagiraju" target="_blank">LinkedIn</a>&nbsp;&nbsp;</h5>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh3IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130278746-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-130278746-1');
+    </script>
+    <script src="js/termynal.js" data-termynal-container="#termynal"></script>
+
+</body>
+
+</html>
+
