@@ -1,13 +1,3 @@
-/**
- * termynal.js
- * A lightweight, modern and extensible animated terminal window, using
- * async/await.
- *
- * @author Ines Montani <ines@ines.io>
- * @version 0.0.1
- * @license MIT
- */
-
 'use strict';
 
 /** Generate a terminal widget. */
