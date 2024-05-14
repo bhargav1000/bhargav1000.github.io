@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (index > 0) {
                 displayElement.innerHTML = greetings[langIndex].slice(0, index) + '<span class="cursor"></span>';
                 index--;
-                setTimeout(typeWriter, 200); // Faster delay for backspacing
+                setTimeout(typeWriter, 150); // Faster delay for backspacing
             } else {
                 // Once we reach the beginning, reset and move to the next language
                 displayElement.innerHTML = '<span class="cursor"></span>';
