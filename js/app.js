@@ -29,16 +29,19 @@ document.addEventListener('DOMContentLoaded', function() {
             if (index < greetings[langIndex].length) {
                 displayElement.innerHTML = greetings[langIndex].slice(0, index + 1) + '<span class="cursor"></span>';
                 index++;
+                setTimeout(typeWriter, 500); // Delay for forward typing
             } else {
                 // Once we reach the end, switch to backward typing and keep cursor
                 displayElement.innerHTML = greetings[langIndex] + '<span class="cursor"></span>';
                 forward = false;
                 index--;
+                setTimeout(typeWriter, 200); // Short delay before starting to delete
             }
         } else {
             if (index > 0) {
                 displayElement.innerHTML = greetings[langIndex].slice(0, index) + '<span class="cursor"></span>';
                 index--;
+                setTimeout(typeWriter, 200); // Faster delay for backspacing
             } else {
                 // Once we reach the beginning, reset and move to the next language
                 displayElement.innerHTML = '<span class="cursor"></span>';
@@ -48,7 +51,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 return;
             }
         }
-        setTimeout(typeWriter, 250); // Adjust the delay to suit your preference
     }
 
     typeWriter(); // Start the typewriter effect
