@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Bhargav Sagiraju brand mark</title>
+  <desc id="desc">A violet and cyan monogram with the letters B and S.</desc>
+  <defs>
+    <linearGradient id="bg" x1="18" y1="12" x2="110" y2="116" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#060914"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="22" y1="20" x2="108" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="letters" x1="30" y1="36" x2="100" y2="92" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="0.48" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#f0f9ff"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.137 0 0 0 0 0.827 0 0 0 0 0.933 0 0 0 .45 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect x="7" y="7" width="114" height="114" rx="22" fill="url(#bg)"/>
+  <rect x="8.5" y="8.5" width="111" height="111" rx="20.5" fill="none" stroke="url(#stroke)" stroke-width="3"/>
+  <path d="M25 91V34h30c12 0 20 6 20 16 0 6-3 11-9 14 7 2 11 7 11 14 0 9-8 13-21 13H25Zm17-34h12c4 0 7-2 7-6s-3-6-8-6H42v12Zm0 23h13c5 0 8-2 8-6s-3-6-8-6H42v12Z" fill="url(#letters)" filter="url(#glow)"/>
+  <path d="M82 91c-7 0-14-2-20-6l6-12c5 4 10 6 16 6 5 0 8-1 8-4 0-2-2-4-8-5l-7-1c-11-2-17-8-17-17 0-11 9-19 24-19 8 0 15 2 21 6l-6 12c-5-3-10-5-15-5s-7 2-7 4c0 3 3 4 9 5l7 1c11 2 17 8 17 17 0 12-10 18-28 18Z" fill="#f8fafc" opacity=".96"/>
+</svg>

@@ -1,317 +1,458 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Bhargav Sagiraju</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bhargav Sagiraju - AI Engineer building LLM applications, computer vision systems, predictive models, APIs, data pipelines, and cloud deployments.">
+  <meta name="keywords" content="Bhargav Sagiraju, AI Engineer, Applied AI, Data Science, LLMs, Computer Vision, Predictive Modelling, MLOps, FastAPI, AWS">
+  <meta name="author" content="Bhargav Sagiraju">
+  <meta property="og:title" content="Bhargav Sagiraju | AI Engineer">
+  <meta property="og:description" content="Hands-on AI engineering portfolio across LLM applications, computer vision, predictive modelling, APIs, cloud deployment, and MLOps.">
+  <meta property="og:type" content="website">
+  <title>Bhargav Sagiraju | AI Engineer</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23080a12'/%3E%3Cpath d='M18 40V18h16c7 0 12 4 12 10 0 7-5 11-13 11h-7v1h20v7H18Zm8-8h8c3 0 5-1 5-4 0-2-2-4-5-4h-8v8Z' fill='%2322d3ee'/%3E%3C/svg%3E">
 
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu" rel="stylesheet">
-  <link rel="stylesheet" href="css/bootstrap4-pleasant.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="css/termynal.css">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114296488-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-114296488-1');
-  </script>
-  <style>
-    @keyframes blink {
-        60% {
-            opacity: 0;
-        }
-    }
-    .cursor {
-        display: inline-block;
-        width: 3px;
-        height: 1em;
-        background-color: #6f42c1;
-        animation: blink 1.8s step-start infinite;
-    }
-</style>
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-light">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="images/basic_icon.png" width="50" height="50" alt="">
+  <div id="particle-background" aria-hidden="true"></div>
+
+  <header id="header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="#introduction" aria-label="Bhargav Sagiraju home">
+        <img src="images/brand-mark.svg" alt="" class="brand-mark">
+        <span>
+          <strong>Bhargav Sagiraju</strong>
+          <small>AI Into Action</small>
+        </span>
       </a>
-      <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="fas fa-bars text-dark "></span>
+
+      <button class="mobile-menu-toggle" id="mobileMenuToggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
       </button>
 
-      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarTogglerDemo03">
-        <ul class="navbar-nav  ml-auto">
-          <li class="nav-item">
-            <a href="#about" class="nav-link text-dark">
-              About</a>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="#projects">
-              Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="#contact">
-              Contact</a>
-          </li>
-        </ul>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#introduction" class="nav-link active">Introduction</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#credentials" class="nav-link">Credentials</a></li>
+      </ul>
+
+      <div class="social-links" aria-label="Social links">
+        <a href="mailto:bhargavsagiraju@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/bhargav-sagiraju/" target="_blank" rel="noreferrer" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/bhargav1000/" target="_blank" rel="noreferrer" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="introduction" class="section intro-section">
+      <div class="container intro-grid">
+        <div class="profile-stage" data-animate>
+          <div class="profile-card">
+            <img src="images/brand-mark.svg" alt="Bhargav Sagiraju profile mark" class="profile-img">
+            <div class="profile-meta">
+              <span class="status-dot"></span>
+              Singapore
+            </div>
+          </div>
+          <div class="signal-card signal-one">
+            <i class="fa-solid fa-route"></i>
+            <span>AI Engineering</span>
+          </div>
+          <div class="signal-card signal-two">
+            <i class="fa-solid fa-chart-line"></i>
+            <span>ML Systems</span>
+          </div>
+        </div>
+
+        <div class="intro-copy" data-animate>
+          <h1>Bhargav Sagiraju</h1>
+          <p class="intro-role">AI Engineer | LLM Apps, Computer Vision, Predictive Modelling & MLOps</p>
+          <p class="intro-description">
+            I build production-oriented AI systems: LLM applications, computer vision workflows, predictive models,
+            data pipelines, APIs, and cloud deployments that turn ambiguous business problems into working software.
+          </p>
+          <p class="intro-description">
+            Currently a <strong>Research Engineer (Applied AI & Data Science)</strong> at the National University of Singapore,
+            I own end-to-end implementation across architecture, data ingestion, model workflows, backend services,
+            deployment, evaluation checks, customer feedback, and iteration.
+          </p>
+
+          <div class="intro-actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button secondary" href="mailto:bhargavsagiraju@gmail.com">Contact</a>
+          </div>
+
+          <div class="narrative-strip" aria-label="AI Into Action">
+            <div class="narrative-title">
+              <i class="fa-solid fa-bolt"></i>
+              <span>AI Into Action</span>
+            </div>
+            <div class="narrative-steps">
+              <div>
+                <strong>01</strong>
+                <span>Turn messy signals into usable model features.</span>
+              </div>
+              <div>
+                <strong>02</strong>
+                <span>Wire models into APIs, workflows, and product surfaces.</span>
+              </div>
+              <div>
+                <strong>03</strong>
+                <span>Validate outputs, deploy, and iterate with users.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="intro-highlights">
+            <div>
+              <strong>36%</strong>
+              <span>Lower video labelling manhours at TikTok</span>
+            </div>
+            <div>
+              <strong>45%</strong>
+              <span>Lower SOP auditing manhours</span>
+            </div>
+            <div>
+              <strong>25%</strong>
+              <span>Faster issue resolution in risk analytics</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-heading" data-animate>
+          <h2>AI Engineering Projects</h2>
+          <p>Selected systems and public repositories that show hands-on model integration, backend APIs, data workflows, deployment, and product impact.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card featured" data-animate>
+            <div class="project-header">
+              <i class="fa-solid fa-compass project-icon"></i>
+              <span class="project-badge production">Professional System</span>
+            </div>
+            <h3>Navigator AI: Commercial Intelligence Platform</h3>
+            <p class="project-org">National University of Singapore | Research Engineer (Applied AI & Data Science)</p>
+            <p>
+              Led end-to-end engineering for an AI platform that helps commercial teams identify high-potential buyers,
+              assess target markets, and accelerate cross-border sales decisions. Built multi-source ingestion workflows,
+              feature synthesis, scoring and ranking logic, AI-generated reports, outreach support, and customer-facing delivery loops.
+            </p>
+            <div class="project-achievements">
+              <span>Data ingestion</span><span>Ranking workflows</span><span>AI reporting</span><span>Customer-facing delivery</span>
+            </div>
+            <div class="project-tech">
+              <span>Python</span><span>LLMs</span><span>RAG</span><span>ETL</span><span>FastAPI</span><span>Evaluation checks</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-animate>
+            <div class="project-header">
+              <i class="fa-solid fa-video project-icon"></i>
+              <span class="project-badge production">Industry AI</span>
+            </div>
+            <h3>GenAI Keyframe Detection for Video Labelling</h3>
+            <p class="project-org">TikTok Pte Ltd | Data Science Intern</p>
+            <p>
+              Engineered a GenAI-powered computer vision application using Segment Anything Model and CLIP to identify salient
+              image segments from video keyframes. Added a natural-language interface for video labellers to detect brand logos
+              and harmful objects, reducing repetitive manual review.
+            </p>
+            <div class="project-achievements">
+              <span>36% manhour reduction</span><span>Natural language labelling</span><span>Brand and object detection</span>
+            </div>
+            <div class="project-tech">
+              <span>SAM</span><span>OpenAI CLIP</span><span>GenAI</span><span>Computer Vision</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-animate>
+            <div class="project-header">
+              <i class="fa-solid fa-file-lines project-icon"></i>
+              <span class="project-badge production">Workflow Automation</span>
+            </div>
+            <h3>LLM Workflow for SOP Generation</h3>
+            <p class="project-org">TikTok Pte Ltd | Data Science Intern</p>
+            <p>
+              Built an LLM workflow using fine-tuned open-source models including Llama 2 and Falcon to generate
+              context-specific SOPs for business partners, improving labelling consistency and reducing audit effort.
+            </p>
+            <div class="project-achievements">
+              <span>45% audit manhour reduction</span><span>Context-specific SOPs</span><span>Partner workflow support</span>
+            </div>
+            <div class="project-tech">
+              <span>Llama 2</span><span>Falcon</span><span>Prompt Engineering</span><span>LLMs</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-animate>
+            <div class="project-header">
+              <i class="fa-solid fa-shield-halved project-icon"></i>
+              <span class="project-badge">Risk Analytics</span>
+            </div>
+            <h3>Financial Signal Extraction and Risk Profiling</h3>
+            <p class="project-org">Money View | Data Scientist, Risk Analytics</p>
+            <p>
+              Developed NLP and predictive modelling workflows for SMS-derived financial signals, customer profiling,
+              installed-app behaviour, fraud modernization, and underwriting features. Deployed model-backed services through
+              REST APIs, AWS ECS, and SageMaker workflows.
+            </p>
+            <div class="project-achievements">
+              <span>80% better signal detection</span><span>Risk feature generation</span><span>AWS deployment</span>
+            </div>
+            <div class="project-tech">
+              <span>spaCy</span><span>XGBoost</span><span>R</span><span>AWS ECS</span><span>SageMaker</span>
+            </div>
+            <a href="https://github.com/bhargav1000/Heat-Seeker" target="_blank" rel="noreferrer" class="text-link">Related repo <i class="fa-brands fa-github"></i></a>
+          </article>
+
+          <article class="project-card" data-animate>
+            <div class="project-header">
+              <i class="fa-solid fa-language project-icon"></i>
+              <span class="project-badge">GitHub</span>
+            </div>
+            <h3>Live Translate Xu Yuan</h3>
+            <p class="project-org">Public GitHub project | JavaScript</p>
+            <p>
+              Real-time local AI speech translation product that turns English speech into Chinese, Spanish, French,
+              German, or Japanese translations. Demonstrates user-facing AI UX, browser integration, and practical audio workflow design.
+            </p>
+            <div class="project-achievements">
+              <span>Real-time speech workflow</span><span>Local AI</span><span>Frontend integration</span>
+            </div>
+            <div class="project-tech">
+              <span>JavaScript</span><span>Speech</span><span>Translation</span><span>Local AI</span>
+            </div>
+            <a href="https://github.com/bhargav1000/Live-Translate-Xu-Yuan" target="_blank" rel="noreferrer" class="text-link">Source <i class="fa-brands fa-github"></i></a>
+          </article>
+
+          <article class="project-card" data-animate>
+            <div class="project-header">
+              <i class="fa-solid fa-cloud project-icon"></i>
+              <span class="project-badge">GitHub</span>
+            </div>
+            <h3>Terraform Automated ECS Deployment</h3>
+            <p class="project-org">Public GitHub project | HCL</p>
+            <p>
+              Automated infrastructure configuration for ECS, ECR, task definitions, services, an Application Load Balancer,
+              and target groups. Included to show deployment literacy for model-backed services beyond notebooks.
+            </p>
+            <div class="project-achievements">
+              <span>ECS cluster setup</span><span>Load balancer</span><span>Infrastructure as code</span>
+            </div>
+            <div class="project-tech">
+              <span>Terraform</span><span>AWS ECS</span><span>ECR</span><span>ALB</span>
+            </div>
+            <a href="https://github.com/bhargav1000/terraform-automated-ecs-deployment" target="_blank" rel="noreferrer" class="text-link">Source <i class="fa-brands fa-github"></i></a>
+          </article>
+
+          <article class="project-card" data-animate>
+            <div class="project-header">
+              <i class="fa-solid fa-gamepad project-icon"></i>
+              <span class="project-badge">GitHub</span>
+            </div>
+            <h3>Fine-Tuned Game AI Coach</h3>
+            <p class="project-org">Public GitHub project | JavaScript</p>
+            <p>
+              Custom fine-tuned AI coach for an arena fighter game using Phi-3.5 and PhaserJS, showing applied model tuning,
+              game-state interaction, and frontend product experience.
+            </p>
+            <div class="project-achievements">
+              <span>Fine-tuned model behavior</span><span>Interactive coaching</span><span>Game UX</span>
+            </div>
+            <div class="project-tech">
+              <span>Phi-3.5</span><span>PhaserJS</span><span>JavaScript</span><span>AI Coaching</span>
+            </div>
+            <a href="https://github.com/bhargav1000/Finetuned-GameAI-Coach" target="_blank" rel="noreferrer" class="text-link">Source <i class="fa-brands fa-github"></i></a>
+          </article>
+
+          <article class="project-card" data-animate>
+            <div class="project-header">
+              <i class="fa-solid fa-drumstick-bite project-icon"></i>
+              <span class="project-badge publication">Publication</span>
+            </div>
+            <h3>Meat Freshness Vision Quality Inspection</h3>
+            <p class="project-org">Master's Thesis | NUS Business School</p>
+            <p>
+              Predicting meat freshness using vision models. The project frames computer vision as an operational quality-control
+              tool for classifying fresh, half-fresh, and spoiled meat, with a practical goal of reducing waste and improving retail decisions.
+            </p>
+            <div class="project-achievements">
+              <span>90%+ reported accuracy</span><span>Quality inspection</span><span>Computer vision</span>
+            </div>
+            <div class="project-tech">
+              <span>Deep Learning</span><span>Image Classification</span><span>Applied ML</span>
+            </div>
+            <a href="https://arxiv.org/abs/2305.00986" target="_blank" rel="noreferrer" class="text-link">Read paper <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        <div class="section-heading" data-animate>
+          <h2>Experience</h2>
+          <p>Designations and dates follow the resume provided for this overhaul.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item" data-animate>
+            <span class="timeline-date">Oct 2023 - Present</span>
+            <div class="timeline-content">
+              <h3>Research Engineer (Applied AI & Data Science)</h3>
+              <p class="timeline-org">National University of Singapore | Singapore</p>
+              <p>
+                Build and ship AI systems for Navigator AI and related commercial intelligence workflows, covering
+                architecture, backend implementation, data workflows, debugging, deployment, customer feedback, LLM evaluation checks, and iteration.
+              </p>
+              <div class="tag-row"><span>Python</span><span>FastAPI</span><span>LLMs</span><span>Data Pipelines</span><span>Customer Workflows</span></div>
+            </div>
+          </article>
+
+          <article class="timeline-item" data-animate>
+            <span class="timeline-date">May 2023 - Sep 2023</span>
+            <div class="timeline-content">
+              <h3>Data Science Intern</h3>
+              <p class="timeline-org">TikTok Pte Ltd | Singapore</p>
+              <p>
+                Built GenAI and computer vision tooling for keyframe detection, logo and harmful-object detection, and LLM-based SOP
+                generation workflows for video labelling and business partner operations.
+              </p>
+              <div class="tag-row"><span>SAM</span><span>CLIP</span><span>Llama 2</span><span>Falcon</span><span>Video Labelling</span></div>
+            </div>
+          </article>
+
+          <article class="timeline-item" data-animate>
+            <span class="timeline-date">Jun 2019 - Jul 2022</span>
+            <div class="timeline-content">
+              <h3>Data Scientist, Risk Analytics</h3>
+              <p class="timeline-org">Money View | Bangalore, India</p>
+              <p>
+                Built NLP, predictive modelling, REST API, dashboarding, and issue-resolution workflows for financial signal extraction,
+                underwriting features, customer risk assessment, and analytics automation.
+              </p>
+              <div class="tag-row"><span>Risk Analytics</span><span>spaCy</span><span>XGBoost</span><span>AWS ECS</span><span>SageMaker</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-heading" data-animate>
+          <h2>Skills</h2>
+          <p>Hands-on engineering stack for AI Engineer roles.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-category" data-animate>
+            <div class="category-header">
+              <i class="fa-solid fa-code"></i>
+              <h3>Programming</h3>
+            </div>
+            <div class="skill-tags-grid"><span>Python</span><span>R</span><span>SQL</span><span>JavaScript</span><span>React</span><span>NodeJS</span></div>
+          </article>
+
+          <article class="skill-category" data-animate>
+            <div class="category-header">
+              <i class="fa-solid fa-brain"></i>
+              <h3>ML, DL and GenAI</h3>
+            </div>
+            <div class="skill-tags-grid"><span>PyTorch</span><span>TensorFlow</span><span>sklearn</span><span>Predictive Modelling</span><span>LLMs</span><span>RAG</span><span>Prompt Engineering</span><span>Agentic AI</span></div>
+          </article>
+
+          <article class="skill-category" data-animate>
+            <div class="category-header">
+              <i class="fa-solid fa-database"></i>
+              <h3>Data Platforms</h3>
+            </div>
+            <div class="skill-tags-grid"><span>ETL</span><span>PySpark</span><span>Large-scale Data Pipelines</span><span>PostgreSQL</span><span>Data Feeds</span><span>JSON</span></div>
+          </article>
+
+          <article class="skill-category" data-animate>
+            <div class="category-header">
+              <i class="fa-solid fa-cloud"></i>
+            <h3>Backend, Cloud and MLOps</h3>
+            </div>
+            <div class="skill-tags-grid"><span>FastAPI</span><span>REST APIs</span><span>Microservices</span><span>Docker</span><span>CI/CD</span><span>Terraform</span><span>AWS/GCP</span><span>GitHub Actions</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="credentials" class="section awards-section">
+      <div class="container">
+        <div class="section-heading" data-animate>
+          <h2>Education and Credentials</h2>
+          <p>Academic background, certifications, and selected leadership signals supporting applied AI delivery.</p>
+        </div>
+
+        <div class="awards-grid">
+          <article class="award-card" data-animate>
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h3>Master of Science in Business Analytics</h3>
+            <p>NUS Business School, National University of Singapore | Aug 2022 - Sep 2023</p>
+          </article>
+
+          <article class="award-card" data-animate>
+            <i class="fa-solid fa-laptop-code"></i>
+            <h3>Bachelor of Engineering, Computer Science & Engineering</h3>
+            <p>Visvesvaraya Technological University | Aug 2015 - Jul 2019 | First Class Honours</p>
+          </article>
+
+          <article class="award-card" data-animate>
+            <i class="fa-solid fa-certificate"></i>
+            <h3>Certifications</h3>
+            <p>Google Cloud Fundamentals, NVIDIA Building RAG Agents with LLMs, Advanced Data Science with IBM, Tableau, Google Data Analytics.</p>
+          </article>
+        </div>
+
+        <div class="contact-panel" data-animate>
+          <div>
+            <h3>Let’s build practical AI systems.</h3>
+            <p>Open to AI Engineer, applied AI, data science, LLM workflow, and model-backed product roles.</p>
+          </div>
+          <div class="contact-actions">
+            <a class="button primary" href="mailto:bhargavsagiraju@gmail.com">Email</a>
+            <a class="button secondary" href="https://www.linkedin.com/in/bhargav-sagiraju/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h2>Bhargav Sagiraju</h2>
+        <p>AI Engineer based in Singapore.</p>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:bhargavsagiraju@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/bhargav-sagiraju/" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/bhargav1000/" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
       </div>
     </div>
-  </nav>
+  </footer>
 
-  <div class="jumbotron bg-light mb-0 radius-0 py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-10">
-          <h1 class="display-3 display-fix">Bhargav Sagiraju</h1>
-          <h3 id="display"></h3><br>
-          <span class="lead text-primary">Harnessing data towards a smarter future.</span>
-          <div class="mt-3">
-            <a href="https://www.linkedin.com/in/bhargav-sagiraju" target="_blank" class="btn btn-wide btn-primary btn-lg my-2 mr-3">
-              <span class="fab fa-linkedin mr-2"></span>Linkedin</a>
-            <a href="https://github.com/bhargav1000/" target="_blank" class="btn btn-wide btn-outline-dark btn-lg my-2">
-              <span class="fab fa-github mr-2"></span>Github</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <button id="scrollTopBtn" class="scroll-top-btn" type="button" aria-label="Scroll to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
 
-
-
-  <div class="container py-5" id='about'>
-    <h3 class="text-dark">About Me</h3>
-    <div id="termynal" data-termynal data-termynal data-ty-typeDelay="40" data-ty-lineDelay="700" class="mt-4">
-      <span data-ty="input">pip install earth</span>
-      <span data-ty="progress"></span>  
-      <span data-ty>Successfully installed earth</span>
-      <span data-ty="input">from earth import People</span>
-      <span data-ty="input">bhargav = People(firstname="Bhargav", lastname="Sagiraju")</span>
-      <span data-ty="input">bhargav.location</span>
-      <span data-ty>"Singapore"</span>
-      <span data-ty="input">bhargav.education</span>
-      <span data-ty>"MSc. Business Analytics, National University of Singapore"</span>
-      <span data-ty="input">bhargav.skills</span>
-      <span data-ty>["Python", "R", "Flask", "Keras", "Scikit-learn", "Caret", "Pandas", "dplyr",
-        "Matplotlib", "ggplot", "git"]</span>
-      <span data-ty="input">bhargav.interests</span>
-      <span data-ty>["business-analytics", "research", "data-science", "science-fiction", "guitar", "problem-solving"]</span>
-    </div>
-  </div>
-
-  <div class="container pb-5" id='projects'>
-    <h3 class="text-dark mb-4">Projects</h3>
-    <div class="row ">
-
-      <div class='col'>
-        <div class="card shadow shadow-md text-dark">
-          <div class="card-body">
-            <h5 class="card-title"><b>Magnum-Opus</b></h5>
-            <p class="card-text">A CNN based Image Classifier used to classify Aadhaar Card, PAN Card and any other document using VGG16.
-            </p>
-            <p>
-              <btn class="btn btn-outline-danger btn-sm">Keras</btn>
-              <btn class="btn btn-outline-danger btn-sm">Image Classification</btn>
-              <btn class="btn btn-outline-danger btn-sm">CNN</btn>
-            </p>
-
-            <p>
-              <a href="https://github.com/bhargav1000/Magnum-Opus" target="_blank" class="btn btn-primary">Source<span
-                  class='ml-2 fab fa-github'></span></a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class='col'>
-        <div class="card shadow shadow-md text-dark">
-          <div class="card-body">
-            <h5 class="card-title"><b>Heat-Seeker</b></h5>
-            <p class="card-text">A Named Entity Recognition algorithm with a companion REST API to detect entities of interest in a SMS.</p>
-
-            <btn class="btn btn-outline-danger btn-sm">Flask</btn>
-            <btn class="btn btn-outline-danger btn-sm">spaCy</btn>
-            <btn class="btn btn-outline-danger btn-sm">NLP</btn>
-            <btn class="btn btn-outline-danger btn-sm">Named Entity Recognition</btn>
-
-            </p>
-            <p>
-              <a href="https://github.com/bhargav1000/Heat-Seeker" target="_blank" class="btn btn-primary">Source<span
-                  class='ml-2 fab fa-github'></span></a>
-
-
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row mt-4 ">
-      <div class='col'>
-        <div class="card shadow shadow-md text-dark">
-          <div class="card-body">
-            <h5 class="card-title"><b>Emotion Perception using Reinforcement Learning</b></h5>
-            <p class="card-text">
-              Interactive UI offers choice between facial emotion detection through Raspberry Pi Camera and text emotion detection through an external Kernel using Python. <b>The project won the Best Engineering Project Award for 2019 from Visvesvaraya Technological University.</b>
-            </p>
-            <p>
-              <btn class="btn btn-outline-danger btn-sm">Keras</btn>
-              <btn class="btn btn-outline-danger btn-sm">LSTM</btn>
-              <btn class="btn btn-outline-danger btn-sm">NLP</btn>
-              <btn class="btn btn-outline-danger btn-sm">OpenCV</btn>
-              <btn class="btn btn-outline-danger btn-sm">Raspberry Pi</btn>
-
-            </p>
-            <p>
-              <a href="https://github.com/bhargav1000/emotion-perception-using-reinforcement-learning" target="_blank" class="btn btn-primary">Source<span
-                  class='ml-2 fab fa-github'></span></a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class='col'>
-        <div class="card shadow shadow-md text-dark">
-          <div class="card-body">
-            <h5 class="card-title"><b>SPIRE</b></h5>
-            <p class="card-text">
-              Digitalization of customer risk identification process with an XGBoost model to pick lifestyle indicators and assess customer risk based on installed apps on a customer's smartphone. The model provided a whole new way of assessing app data (package info).
-            </p>
-            <p>
-              <btn class="btn btn-outline-danger btn-sm">dplyr</btn>
-              <btn class="btn btn-outline-danger btn-sm">xgboost</btn>
-            </p>
-            <p>
-              <a href="https://github.com/bhargav1000/SPIRE" target="_blank" class="btn btn-primary">Source<span
-                  class='ml-2 fab fa-github'></span></a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row mt-4 ">
-      <div class='col'>
-        <div class="card shadow shadow-md text-dark">
-          <div class="card-body">
-            <h5 class="card-title"><b>K-prototypes</b></h5>
-            <p class="card-text">
-              An experiment with K-prototypes algorithm with Kmodes library which clusters over a dataset with mixed feature types. The cluster-based customer segmentation helped create new sales strategies. 
-            </p>
-            <p>
-             <btn class="btn btn-outline-danger btn-sm">Pandas</btn>
-	         <btn class="btn btn-outline-danger btn-sm">NumPy</btn>
-	         <btn class="btn btn-outline-danger btn-sm">KModes</btn>
-            </p>
-            <p>
-              <a href="https://github.com/bhargav1000/kprototypes-clustering" target="_blank" class="btn btn-primary">Source<span
-                  class='ml-2 fab fa-github'></span></a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class='col'>
-        <div class="card shadow shadow-md text-dark">
-          <div class="card-body">
-            <h5 class="card-title"><b>Web Scraper</b></h5>
-            <p class="card-text">
-              BeautifulSoup based web & notification scrapers to scrape exam results from the University (VTU) results website. The scrapers saved a lot of faculty's time & money spent on extracting student results.
-            </p>
-            <p>
-              <btn class="btn btn-outline-danger btn-sm">BeautifulSoup</btn>
-              <btn class="btn btn-outline-danger btn-sm">urllib</btn>
-            </p>
-            <p>
-              <a href="https://github.com/bhargav1000/web-scrapers" target="_blank" class="btn btn-primary">Source<span
-                  class='ml-2 fab fa-github'></span></a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row mt-4 ">
-      <div class='col'>
-        <div class="card shadow shadow-md text-dark">
-          <div class="card-body">
-            <h5 class="card-title"><b>Coursera Capstone</b></h5>
-            <p class="card-text">
-              A repo for the IBM Data Science Professional Certificate course on Coursera. I created a dashboard using Dash to visualize city data from London and Paris. I created a KMeans model to cluster similar neighbourhoods.
-            </p>
-            <p>
-             <btn class="btn btn-outline-danger btn-sm">Pandas</btn>
-	         <btn class="btn btn-outline-danger btn-sm">NumPy</btn>
-	         <btn class="btn btn-outline-danger btn-sm">Dash</btn>
-            </p>
-            <p>
-              <a href="https://github.com/bhargav1000/Coursera_Capstone" target="_blank" class="btn btn-primary">Source<span
-                  class='ml-2 fab fa-github'></span></a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class='col'>
-        <div class="card shadow shadow-md text-dark">
-          <div class="card-body">
-            <h5 class="card-title"><b>IBM Advanced Data Science Capstone</b></h5>
-            <p class="card-text">
-              A repo for the IBM Advanced Data Science Course. I modeled customer subscription preference with Apache Spark. The exercise was based on the telemarketing dataset obtained from the UCI Machine Learning repository.
-            </p>
-            <p>
-              <btn class="btn btn-outline-danger btn-sm">Apache Spark</btn>
-              <btn class="btn btn-outline-danger btn-sm">Pandas</btn>
-              <btn class="btn btn-outline-danger btn-sm">Numpy</btn>
-            </p>
-            <p>
-              <a href="https://github.com/bhargav1000/ibm-advanced-data-science-capstone" target="_blank" class="btn btn-primary">Source<span
-                  class='ml-2 fab fa-github'></span></a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-    <div class="container py-5" id='contact'>
-      <h3 class="text-dark pb-3">Contact</h3>
-<h5><a class="text-primary" href="mailto:sagiraju.bhargav@gmail.com" target="_top">Email</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a
-class="text-primary" href="https://www.linkedin.com/in/bhargav-sagiraju" target="_blank">LinkedIn</a>&nbsp;&nbsp;</h5>
-    </div>
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh3IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"></script>
-
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130278746-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-
-      gtag('config', 'UA-130278746-1');
-    </script>
-    <script src="js/termynal.js" data-termynal-container="#termynal"></script>
-    <script src="js/app.js"></script>
-
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.149.0/three.min.js"></script>
+  <script defer src="js/main.js"></script>
 </body>
-
 </html>
-
